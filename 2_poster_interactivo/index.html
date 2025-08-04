@@ -1,23 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./style/style.css">
 </head>
+
 <body>
     <div class="pantalla">
+        <!-- HUD de monedas y corazones -->
+        <div class="hud">
+            <div class="hud-item">
+                <img src="./assets/moneda.png" alt="Moneda">
+                <span id="contador-monedas">0</span>
+            </div>
+            <div class="hud-item">
+                <img src="./assets/CORAZON.png" alt="Corazón">
+                <span id="contador-corazones">3</span>
+            </div>
+        </div>
         <img class="fondo" src="./assets/fondo.png" alt="">
-        <img class="bloque1"src="./assets/6cubos.png" alt="">
+        <img class="bloque1" src="./assets/6cubos.png" alt="">
         <img class="bloque2" src="./assets/3cubos.png" alt="">
-        <img class="moneda1" src="./assets/moneda.png" alt="">
-        <img class="moneda2" src="./assets/moneda.png" alt="">
-        <img class="moneda3" src="./assets/moneda.png" alt="">
+        <img class="coin moneda1" src="./assets/moneda.png" alt="">
+        <img class="coin moneda2" src="./assets/moneda.png" alt="">
+        <img class="coin moneda3" src="./assets/moneda.png" alt="">
         <img class="corazon" src="./assets/corazon.png" alt="">
 
     </div>
-    
+
     <script src="./js/app.js"></script>
 </body>
+
 </html>
