@@ -20,12 +20,16 @@
     position: absolute; /* absolute porque es hijo */
     top: 47%;
     left: 20%;
+    animation: mover 0.6s linear infinite;
 }
 
 .bloque2{
     position: absolute;
     top: 28%;
     left: 50%;
+    animation: mover 0.6s linear infinite;
+
+    
 }
 
 .moneda1{
@@ -57,12 +61,31 @@
     animation: salto 0.6s ease forwards;
 }
 
+.mover{
+     animation: salto 0.6s linear infinite;
+}
+
+.regresar{
+     animation: salto 0.6s linear infinite;
+}
 
 /* animacion moneda desaparece */
 @keyframes salto {
     0%{transform: translateY(0); opacity: 1;}
     30%{transform: translateY(-60px);}
     100%{transform: translateY(0px); opacity: 0;}
+}
+
+@keyframes mover {
+    0%{transform: translateX(0); }
+    30%{transform: translateX(-60px);}
+    100%{transform: translateX(0px); }
+}
+
+@keyframes regresar {
+    0%{transform: translateX(0); }
+    30%{transform: translateX(-60px);}
+    100%{transform: translateX(0px); }
 }
 
 /* Contador monedas y corazones */
@@ -94,3 +117,4 @@
       height: 24px;
       margin-right: 8px;
     }
+
