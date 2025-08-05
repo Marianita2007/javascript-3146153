@@ -20,14 +20,14 @@
     position: absolute; /* absolute porque es hijo */
     top: 47%;
     left: 20%;
-    animation: mover 0.6s linear infinite;
+    animation: mover 1s linear infinite;
 }
 
 .bloque2{
     position: absolute;
     top: 28%;
     left: 50%;
-    animation: mover 0.6s linear infinite;
+    animation: regresar 2s linear infinite;
 
     
 }
