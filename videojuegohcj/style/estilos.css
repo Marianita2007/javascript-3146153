@@ -122,3 +122,24 @@ body {
     animation: desaparecer 0.6s ease forwards;
 }
 
+
+/* BOTON PLAY/STOP */
+
+button {
+    bottom: .1px;
+    position: absolute;
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 120px;
+    margin: 5px
+
+}
+
+button:hover {
+    background-color: #ff3333;
+}
