@@ -190,3 +190,39 @@
   border: 3px solid #FFD700;
 }
 
+.sound-button{
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  top: 45px;
+  left: 600px;
+  z-index: 1000;
+  cursor: pointer;
+}
+/* .play-stop-img{
+  background-color: black;
+  color: aliceblue;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+#play-stop-img:hover{
+  background-color: rgb(188, 100, 100);
+}
+
+#play-stop-img{
+  background-color: aquamarine;
+  color: black;
+  border: none;
+  position: absolute;
+  top: 4%;
+  left: 33%;
+  cursor: pointer;
+  padding: 1rem;
+  border-radius: 3rem;
+  cursor: pointer;
+  font-size: 16px;
+} */
